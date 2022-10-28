@@ -2,7 +2,7 @@
     package="com.example.notas_notifica">
    <uses-permission android:name="android.permission.INTERNET"/> 
    <application
-        android:label="notas_notifica"
+        android:label="Notas Notifica"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

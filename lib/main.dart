@@ -23,7 +23,7 @@ final kFirebase = (defaultTargetPlatform == TargetPlatform.android ||
 
 const host = (kDebugMode)
     ? 'http://localhost:8000/api'
-    : 'http://juhegue.duckdns.org:8080/api';
+    : 'https://notas.diagram.net/api';
 
 void main() async {
   if (kFirebase) {
