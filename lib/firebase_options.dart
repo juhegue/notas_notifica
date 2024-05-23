@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -67,7 +64,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '253990018664',
     projectId: 'notas-notifica',
     storageBucket: 'notas-notifica.appspot.com',
-    iosClientId: '253990018664-0iihbukc2lbuqu6ag8oqlblsa6p0i5kb.apps.googleusercontent.com',
     iosBundleId: 'com.example.notasNotificacion',
   );
 
@@ -77,7 +73,17 @@ class DefaultFirebaseOptions {
     messagingSenderId: '253990018664',
     projectId: 'notas-notifica',
     storageBucket: 'notas-notifica.appspot.com',
-    iosClientId: '253990018664-0iihbukc2lbuqu6ag8oqlblsa6p0i5kb.apps.googleusercontent.com',
     iosBundleId: 'com.example.notasNotificacion',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyDzi4LbqUE3xtBYpvKaUnvFTyFg4hnprJQ',
+    appId: '1:253990018664:web:09056483a094aed2f065dd',
+    messagingSenderId: '253990018664',
+    projectId: 'notas-notifica',
+    authDomain: 'notas-notifica.firebaseapp.com',
+    storageBucket: 'notas-notifica.appspot.com',
+    measurementId: 'G-DCZZE91PB7',
+  );
+
 }

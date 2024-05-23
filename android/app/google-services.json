@@ -12,12 +12,7 @@
           "package_name": "com.example.notas_notifica"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "253990018664-67lc06m9bh4q6gg7kvg3ngcchha2itf1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
           "current_key": "AIzaSyB-mLwm_D-k3ASec9BrIT9K5ogXU5Bvv-A"
@@ -25,19 +20,7 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "253990018664-67lc06m9bh4q6gg7kvg3ngcchha2itf1.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "253990018664-0iihbukc2lbuqu6ag8oqlblsa6p0i5kb.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.notasNotificacion"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
