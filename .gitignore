@@ -48,3 +48,4 @@ app.*.map.json
 LEEME
 
 firebase.json
+pubspec.lock
